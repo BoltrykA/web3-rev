@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #f7f7f7; /* Change this to your preferred background color */
+}
+
+/* Set maximum width and center the content */
+.container {
+    max-width: 1200px; /* Adjust this based on your design preferences */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Segoe UI', Roboto, sans-serif; /* Update font stack if needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Additional styling like color, size, etc., can be added based on preference */
+}
+
+/* Style paragraphs */
+p {
+    font-family: 'Segoe UI', Roboto, sans-serif; /* Update font stack if needed */
+    font-size: 16px; /* Adjust font size as per your preference */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin-bottom: 20px;
+    /* Additional styling can be added based on preference */
+}
+
+/* Style links */
+a {
+    color: #007bff; /* Change link color as needed */
+    text-decoration: none;
+    /* Additional styling for links like hover effects, etc., can be added */
+}
+
+a:hover {
+    text-decoration: underline; /* Example: Underline links on hover */
+}
+
+/* Style code elements */
+code {
+    font-family: 'Courier New', monospace; /* Update font stack if needed */
+    /* Additional styling for code elements */
+}
