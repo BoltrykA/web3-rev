@@ -1,7 +1,7 @@
 import Button from "components/Button/Button.jsx";
 import Statistics from "components/Statistics/Statistics.jsx";
 
-import {useContext} from "react";
+import { useContext } from "react";
 import { Context as CounterContext } from "../../contexts/counterContexts";
 const App = () => {
 
